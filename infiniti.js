@@ -1,6 +1,6 @@
-const trigger = document.querySelector('.alert-trigger')
-const alertEl = document.querySelector('.alert')
-const alertOk = document.querySelector('.alert-ok')
+const trigger = document.querySelector('#compliment')
+const alertEl = document.querySelector('#alert-compliment')
+const alertOk = document.querySelector('#button-ok-compliment')
 
 function onTriggerClick () {
     alertEl.classList.add('show')
@@ -10,11 +10,9 @@ function onAlertOkClick () {
     alertEl.classList.remove('show')
 }
 
-const alert2 = document.querySelector('.new-alert')
-const alertEl2 = document.querySelector('.alert2')
-const alertOk2 = document.querySelector('.alert-ok2')
-
-console.log(alert2, alertEl2, alertOk2)
+const alert2 = document.querySelector('#decipher')
+const alertEl2 = document.querySelector('#alert-decipher')
+const alertOk2 = document.querySelector('#button-ok-decipher')
 
 
 function onTriggerClick2 () {
